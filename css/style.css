@@ -57,6 +57,15 @@ nav {
     font-weight: bold;
 }
 
+.btn2 {
+    padding: 14px;
+    background-color: #FFC839;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
 button:hover {
     cursor: pointer;
     background-color: #d1a229;
@@ -233,3 +242,25 @@ input[type=number] {
         font-size: 20px;
     }
 }
+
+.m {
+    width: 180px;
+}
+
+.m img {
+    width: 100%;
+}
+
+.w img {
+    width: 290px;
+    height: 400px
+}
+
+.mt1 {
+    margin-top: 100px;
+}
+
+.mb {
+    margin-bottom: 50px;
+}
+
