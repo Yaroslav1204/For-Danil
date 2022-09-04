@@ -3398,7 +3398,7 @@ nav ul a span.badge {
   float: none;
   margin-left: 4px;
   line-height: 22px;
-  height: 500px;
+  height: 865px;
   -webkit-font-smoothing: auto;
 }
 
@@ -4273,8 +4273,8 @@ nav {
   color: #fff;
   background-color: none;
   width: 100%;
-  height: 800px;
-  line-height: 56px;
+  height: 865px;
+  line-height: 86px;
 }
 
 nav.nav-extended {
@@ -4300,7 +4300,7 @@ nav [class^="mdi-"], nav [class*="mdi-"],
 nav i.material-icons {
   display: block;
   font-size: 24px;
-  height: 800px;
+  height: 865px;
   line-height: 56px;
 }
 
@@ -4319,12 +4319,12 @@ nav .sidenav-trigger {
   float: left;
   position: relative;
   z-index: 1;
-  height: 800px;
+  height: 46px;
   margin: 0 18px;
 }
 
 nav .sidenav-trigger i {
-  height: 800px;
+  height: 56px;
   line-height: 56px;
 }
 
@@ -4463,7 +4463,7 @@ nav .input-field label.active i {
 
 .navbar-fixed {
   position: relative;
-  height: 800px;
+  height: 865px;
   z-index: 997;
 }
 
@@ -4473,14 +4473,17 @@ nav .input-field label.active i {
 
 @media only screen and (max-width: 601px) {
   nav.nav-extended .nav-wrapper {
-    min-height: 800px;
+    min-height: 865px;
   }
-  nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
-    height: 800px;
+  nav, nav .nav-wrapper i {
+    height: 865px;
     line-height: 56px;
   }
+  .nav a.sidenav-trigger, nav a.sidenav-trigger i {
+    height: 56px;
+  }
   .navbar-fixed {
-    height: 800px;
+    height: 865px;
   }
 }
 
@@ -6093,7 +6096,7 @@ select:focus {
 
 button:focus {
   outline: none;
-  background-color: #2ab7a9;
+  background-color: #d1a228;
 }
 
 label {
@@ -6134,9 +6137,7 @@ input[type=tel]:not(.browser-default),
 input[type=number]:not(.browser-default),
 input[type=search]:not(.browser-default),
 textarea.materialize-textarea {
-  background-color: transparent;
-  border: none;
-  border-bottom: 1px solid #9e9e9e;
+  background-color: #FFF0CB;
   border-radius: 0;
   outline: none;
   height: 3rem;
@@ -6180,7 +6181,6 @@ input[type=search]:not(.browser-default)[readonly="readonly"],
 textarea.materialize-textarea:disabled,
 textarea.materialize-textarea[readonly="readonly"] {
   color: rgba(0, 0, 0, 0.42);
-  border-bottom: 1px dotted rgba(0, 0, 0, 0.42);
 }
 
 input:not([type]):disabled + label,
@@ -6224,12 +6224,7 @@ input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
 input[type=tel]:not(.browser-default):focus:not([readonly]),
 input[type=number]:not(.browser-default):focus:not([readonly]),
 input[type=search]:not(.browser-default):focus:not([readonly]),
-textarea.materialize-textarea:focus:not([readonly]) {
-  border-bottom: 1px solid #26a69a;
-  -webkit-box-shadow: 0 1px 0 0 #26a69a;
-          box-shadow: 0 1px 0 0 #26a69a;
-}
-
+textarea.materialize-textarea:focus:not([readonly]) 
 input:not([type]):focus:not([readonly]) + label,
 input[type=text]:not(.browser-default):focus:not([readonly]) + label,
 input[type=password]:not(.browser-default):focus:not([readonly]) + label,
@@ -6319,11 +6314,7 @@ input.valid[type=number]:not(.browser-default):focus,
 input.valid[type=search]:not(.browser-default),
 input.valid[type=search]:not(.browser-default):focus,
 textarea.materialize-textarea.valid,
-textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-dropdown {
-  border-bottom: 1px solid #4CAF50;
-  -webkit-box-shadow: 0 1px 0 0 #4CAF50;
-          box-shadow: 0 1px 0 0 #4CAF50;
-}
+textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-dropdown
 
 input.invalid:not([type]), input.invalid:not([type]):focus,
 input.invalid[type=text]:not(.browser-default),
@@ -6350,11 +6341,7 @@ input.invalid[type=search]:not(.browser-default),
 input.invalid[type=search]:not(.browser-default):focus,
 textarea.materialize-textarea.invalid,
 textarea.materialize-textarea.invalid:focus, .select-wrapper.invalid > input.select-dropdown,
-.select-wrapper.invalid > input.select-dropdown:focus {
-  border-bottom: 1px solid #F44336;
-  -webkit-box-shadow: 0 1px 0 0 #F44336;
-          box-shadow: 0 1px 0 0 #F44336;
-}
+.select-wrapper.invalid > input.select-dropdown:focus
 
 input:not([type]).valid ~ .helper-text[data-success],
 input:not([type]):focus.valid ~ .helper-text[data-success],
@@ -6523,7 +6510,7 @@ textarea.materialize-textarea + label:after, .select-wrapper + label:after {
 
 .input-field.col .prefix ~ label,
 .input-field.col .prefix ~ .validate ~ label {
-  width: calc(100% - 3rem - 1.5rem);
+  width: 200px
 }
 
 .input-field > label {

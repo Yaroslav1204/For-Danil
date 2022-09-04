@@ -1,16 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dflex {
+    display: flex;
+}
 
 .header {
     background-image: url("../img/stephen-leonardi-Al9Cl-b7EFU-unsplash-1.jpg");
     width: 100%;
-    height: 800px;
+    height: 865px;
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: fixed;
     background-size: cover;
     z-index: 1;
-    position: relative;
 }
 
 nav {
     background-color: rgba(0, 0, 255, 0.4);
 }
+
+.container {
+    height: 865px;
+}
+
+.header__items {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.paragraph {
+    width: 100%;
+}
+
+.paragraph h3{
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.container2 {
+    margin-top: 50px;
+    width: 100%;
+    height: 170px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+button {
+    padding: 14px;
+    width: 100%;
+    background-color: #FFC839;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #d1a229;
+}
+
+input {
+    border:none;
+    background-color: #FFF0CB;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media (max-width:1200px) {
+    .container2 {
+        height: 260px;
+    }
+}
+
+@media (max-width:992px) {
+    .container2 {
+        height: 500px;
+    }
+
+    nav {
+        line-height: 70px!important;
+      }
+}
+
+@media (max-width:602px) {
+    .container2 {
+        height: 400px;
+    }
+
+    .paragraph h3 {
+        font-size: 30px;
+    }
+
+    nav {
+        line-height: 57px!important;
+      }
+}
+
+.first__Section {
+    margin-top: 150px;
+}
+
+.card-content p {
+    font-size: 13px;
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+}
+
+
+.bcg {
+    background-color: #FFC839;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    margin-right: 5px;
+}
+
+
+.card-content:hover {
+    background-color: #FFC839;
+    cursor: pointer;
+}
+
+
+.card-content:hover .bcg {
+    background-color: white;
+    cursor: pointer;
+}
+
+

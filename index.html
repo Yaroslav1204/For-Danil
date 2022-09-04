@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,30 +10,103 @@
     <link rel="stylesheet" href="./materialize/css/materialize.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+
+    <!-- Header Start -->
+
     <header class="header">
         <nav class="header__menu">
             <div class="container">
-            <a class="brand-logo" href="./index.html"><strong>HOUS<span class="yellow-text">ESALE</span></strong></a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a class="nav__links" href="#">On sale</a></li>
-                <li><a class="nav__links" href="#">For rent</a></li>
-                <li><a class="nav__links" href="#">New Residential Project</a></li>
-                <li><a class="nav__links" href="#">Property News</a></li>
-            </ul>
+                <a class="brand-logo" href="./index.html"><strong>HOUS<span
+                            class="yellow-text">ESALE</span></strong></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="nav__links" href="#">On sale</a></li>
+                    <li><a class="nav__links" href="#">For rent</a></li>
+                    <li><a class="nav__links" href="#">New Residential Project</a></li>
+                    <li><a class="nav__links" href="#">Property News</a></li>
+                </ul>
+
+                <div class="header__items">
+                    <div class="paragraph">
+                        <h3>Quality home services, on <br>demand</h3>
+                        <h6>Experienced, hand-picked Professionals to serve you at your <br>doorstep</h6>
+                        <div class="container2">
+                            <form class="form" action="">
+                                <div class="row">
+                                    <div class="col xl3 l6 m12 s12">
+                                        <input type="text" placeholder="Room">
+                                        <input type="text" placeholder="House">
+                                    </div>
+
+                                    <div class="col xl9 l6 m12 s12">
+                                        <input type="text" name="" id="" placeholder="In which region">
+                                        <div class="row">
+                                            <div class="col xl3 l6 m12 s12"><input type="number" name="" id="" placeholder="Number of rooms"></div>
+                                            <div class="col xl3 l6 m12 s12"><input type="number" name="" id="" placeholder="Square meters"></div>
+                                            <div class="col xl3 l6 m12 s12"><input type="text" name="" id="" placeholder="Garage"></div>
+                                            <div class="col xl3 l6 m12 s12"><button>SEARCH</button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+            </div>
+                
+                
+            </div>
         </nav>
-
+ 
         <ul class="sidenav" id="mobile-demo">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">Javascript</a></li>
-            <li><a href="mobile.html">Mobile</a></li>
-          </ul>
-
-    </div>
+            <li><a class="nav__links" href="#">On sale</a></li>
+            <li><a class="nav__links" href="#">For rent</a></li>
+            <li><a class="nav__links" href="#">New Residential Project</a></li>
+            <li><a class="nav__links" href="#">Property News</a></li>
+        </ul>
     </header>
+
+    <!-- End Title -->
+
+    <main>
+        <section class="first__Section">
+            <div class="container">
+                <div class="row">
+                    <div class="col xl4 l6 m6 s12">
+                      <div class="card">
+                        <div class="card-image">
+                          <img src="./img/douglas-sheppard-9rYfG8sWRVo-unsplash.jpg" height="250px">
+                        </div>
+                        <div class="card-content">
+                            <span class="bcg"><i class="material-icons">keyboard_arrow_right</i></span><p>Same great quality. New lower prices..</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col xl4 l6 m6 s12">
+                        <div class="card">
+                          <div class="card-image">
+                            <img src="./img/francesca-tosolini-LL9V0iMpStM-unsplash-1-scaled.jpg" height="250px">
+                          </div>
+                          <div class="card-content">
+                            <span class="bcg"><i class="material-icons">keyboard_arrow_right</i></span><p>Everyday Essentials, High quality affordable.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col xl4 l6 m6 s12">
+                        <div class="card">
+                          <div class="card-image">
+                            <img src="./img/Без названия.jfif" height="250px">
+                          </div>
+                          <div class="card-content">
+                            <span class="bcg"><i class="material-icons">keyboard_arrow_right</i></span><p>Join the makeover journey .</p>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+        </section>
+    </main>
 
 
 
@@ -43,4 +117,5 @@
     <script src="./materialize/js/materialize.js"></script>
     <script src="./JS/script.js"></script>
 </body>
+
 </html>
