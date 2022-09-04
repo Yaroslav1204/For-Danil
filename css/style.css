@@ -264,3 +264,8 @@ input[type=number] {
     margin-bottom: 50px;
 }
 
+.head {
+    display: flex;
+    justify-content: end;
+}
+
