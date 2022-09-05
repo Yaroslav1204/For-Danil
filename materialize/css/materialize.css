@@ -4416,7 +4416,7 @@ nav ul a.btn > .material-icons, nav ul a.btn-large > .material-icons, nav ul a.b
   line-height: inherit;
 }
 
-nav ul a:hover {
+nav ul .nav__links:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -6505,7 +6505,7 @@ textarea.materialize-textarea + label:after, .select-wrapper + label:after {
 }
 
 .input-field.col label {
-  left: 0.75rem;
+  left: 2rem;
 }
 
 .input-field.col .prefix ~ label,
